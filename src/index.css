@@ -1,13 +1,55 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+img {
+    border-radius: 50%;
+    width: 70%;
+    max-width: 350px;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 50px rgb(174, 174, 174);
+}
+
+#imagem {
+    background-image: url("./assets/foto-borrada.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.title{
+    color: white;
+    text-shadow: 0px 0px 50px rgb(0, 0, 0);
+}
+
+.subtitle{
+    color: white;
+    text-shadow: 0px 0px 50px rgb(0, 0, 0);
+}
+
+.botao{
+    font-size: 1rem;
+    width: 300px;
+    height: 50px;
+    background-color: transparent;
+    color: white;
+    border: 4px solid white;
+    border-radius: 10px;
+}
+.botao:hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s ease;
+}
+
+.botoes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
 }
