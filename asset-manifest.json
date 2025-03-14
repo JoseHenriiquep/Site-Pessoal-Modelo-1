@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Site-Pessoal-Modelo-1/static/css/main.b483d6fe.css",
+    "main.js": "/Site-Pessoal-Modelo-1/static/js/main.c9cfe94c.js",
+    "static/media/foto-borrada.jpg": "/Site-Pessoal-Modelo-1/static/media/foto-borrada.4519711a1840347f2231.jpg",
+    "static/media/mulher.jpg": "/Site-Pessoal-Modelo-1/static/media/mulher.5ab8fdb3f137fab6360c.jpg",
+    "index.html": "/Site-Pessoal-Modelo-1/index.html",
+    "main.b483d6fe.css.map": "/Site-Pessoal-Modelo-1/static/css/main.b483d6fe.css.map",
+    "main.c9cfe94c.js.map": "/Site-Pessoal-Modelo-1/static/js/main.c9cfe94c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b483d6fe.css",
+    "static/js/main.c9cfe94c.js"
+  ]
+}
